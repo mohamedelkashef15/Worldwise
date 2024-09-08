@@ -1,0 +1,6 @@
+- Project Tasks
+  - Create pages: HomePage, Pricing, Product, PageNotFound
+  - install react router 
+  - use React Router Custom components to display routes
+
+  - Create NavLinks component to navigate between pages 
