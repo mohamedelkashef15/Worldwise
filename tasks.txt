@@ -3,4 +3,7 @@
   - install react router 
   - use React Router Custom components to display routes
 
-  - Create NavLinks component to navigate between pages 
+  - Create NavLinks component to navigate between pages
+  
+  - Add new file NavLinks for module css
+  - Create AppLayout Component
