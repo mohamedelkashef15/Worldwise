@@ -7,3 +7,9 @@
   
   - Add new file NavLinks for module css
   - Create AppLayout Component
+
+  - Implement cities List using local host API 
+    - Check if there is no cities then display message pick from map 
+    - Add spinner component while loading 
+    - make sure that you have installed right version of json-server to display delay 
+    

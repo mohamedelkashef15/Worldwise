@@ -1,4 +1,4 @@
-export interface ICites {
+export interface ICities {
   cityName: string;
   country: string;
   emoji: string;
@@ -10,4 +10,8 @@ export interface ICites {
 
 export interface ICityItem {
   cityName: string;
+}
+export interface ICountry {
+  country: string;
+  emoji: string;
 }
