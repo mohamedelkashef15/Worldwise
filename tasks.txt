@@ -12,4 +12,12 @@
     - Check if there is no cities then display message pick from map 
     - Add spinner component while loading 
     - make sure that you have installed right version of json-server to display delay 
+
+  - Add Route to URL using id  
+    - Create route 
+    - Link to that route
+    - useParams to get data of route
+
+  - Reading and setting the query string
+    - add lat and lng to URL 
     
