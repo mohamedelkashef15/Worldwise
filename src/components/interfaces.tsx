@@ -15,3 +15,9 @@ export interface ICountry {
   country: string;
   emoji: string;
 }
+
+export interface IButton {
+  onClick: (e: React.MouseEvent<HTMLButtonElement>) => void;
+  type: string;
+  children: React.ReactNode;
+}
