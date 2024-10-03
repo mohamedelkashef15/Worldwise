@@ -3,8 +3,11 @@ import CityItem from "./CityItem";
 import { ICities } from "./interfaces";
 import Spinner from "./Spinner";
 import Message from "./Message";
+import { useCities } from "../contexts/CitiesContext";
 
-function CityList({ cities, isLoading }: { cities: ICities[]; isLoading: boolean }) {
+function CityList() {
+  const { isLoading, cities } = useCities();
+
   if (isLoading) return <Spinner />;
   if (cities.length === 0) return <Message message={"Add your first city by clicking on the map"} />;
   return (

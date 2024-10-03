@@ -22,3 +22,5 @@
     - add lat and lng to URL 
   
   - Programmatic Navigation 
+
+  - Create a Contexts API for cities
